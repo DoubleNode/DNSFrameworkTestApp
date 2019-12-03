@@ -2,13 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>TestApp.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-	</dict>
+	<key>beaconstacDevKey</key>
+	<string>aed603087f95a18c871b9cd469863361147a6374</string>
 </dict>
 </plist>

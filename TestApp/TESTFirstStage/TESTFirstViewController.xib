@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15508"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TESTFirstViewController" customModule="DNSBaseScene" customModuleProvider="target">
+            <connections>
+                <outlet property="testButton" destination="6UU-2I-h9e" id="eoS-vq-pxh"/>
+                <outlet property="view" destination="aIl-LU-PqL" id="qIh-Ua-FXT"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="aIl-LU-PqL">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ANk-8b-KM0">
+                    <rect key="frame" x="131.5" y="426.5" width="151" height="43"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gF-bp-MUa">
+                    <rect key="frame" x="110" y="477.5" width="194.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UU-2I-h9e">
+                    <rect key="frame" x="50" y="594.5" width="314" height="70"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="etw-ae-Ih7"/>
+                    </constraints>
+                    <state key="normal" title="Push Second View">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="testButtonActionWithSender:" destination="-1" eventType="touchUpInside" id="5qf-7t-lYq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="6UU-2I-h9e" firstAttribute="leading" secondItem="qIe-c7-Ki7" secondAttribute="leading" constant="50" id="5Yp-vH-62Q"/>
+                <constraint firstItem="6UU-2I-h9e" firstAttribute="top" secondItem="9gF-bp-MUa" secondAttribute="bottom" constant="100" id="7j7-0K-OOr"/>
+                <constraint firstAttribute="centerY" secondItem="ANk-8b-KM0" secondAttribute="centerY" id="Adh-ce-0VR"/>
+                <constraint firstAttribute="centerX" secondItem="ANk-8b-KM0" secondAttribute="centerX" id="J0m-NT-Tkm"/>
+                <constraint firstItem="9gF-bp-MUa" firstAttribute="top" secondItem="ANk-8b-KM0" secondAttribute="bottom" constant="8" symbolic="YES" id="JvL-OY-8A6"/>
+                <constraint firstItem="9gF-bp-MUa" firstAttribute="centerX" secondItem="ANk-8b-KM0" secondAttribute="centerX" id="fBi-ii-KhV"/>
+                <constraint firstItem="qIe-c7-Ki7" firstAttribute="trailing" secondItem="6UU-2I-h9e" secondAttribute="trailing" constant="50" id="uFe-XR-k1s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="qIe-c7-Ki7"/>
+            <point key="canvasLocation" x="136" y="764"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+</document>
