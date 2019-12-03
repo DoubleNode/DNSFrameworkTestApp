@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TestApp-TestAppUITests/Pods-TestApp-TestAppUITests-frameworks.sh
+${PODS_ROOT}/Beaconstac/Beaconstac/Beaconstac.framework
+${BUILT_PRODUCTS_DIR}/EddystoneScanner/EddystoneScanner.framework
