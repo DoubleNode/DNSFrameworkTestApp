@@ -68,6 +68,11 @@
 		16F38C59E1E514341EE6DA62 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
 		1E087505722190327BF7E26C /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
 		552E80B1C86B5B87A94DE405 /* Pods-TestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TestAppTests/Pods-TestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0E9F3023981D9800AFD42D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		6A0E9F3123981D9800AFD42D /* codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codecov.yml; sourceTree = "<group>"; };
+		6A0E9F3223981D9800AFD42D /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
+		6A0E9F3323981D9800AFD42D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6A0E9F3423981D9800AFD42D /* Dangerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dangerfile; sourceTree = "<group>"; };
 		6A2ED8762388F85C0011E4B2 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2ED88E2388F85E0011E4B2 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2ED8922388F85E0011E4B2 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
@@ -174,9 +179,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6A0E9F3523981DBB00AFD42D /* Project Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E9F3323981D9800AFD42D /* .gitignore */,
+				6A0E9F3023981D9800AFD42D /* .swiftlint.yml */,
+				6A0E9F3223981D9800AFD42D /* azure-pipelines.yml */,
+				6A0E9F3123981D9800AFD42D /* codecov.yml */,
+				6A0E9F3423981D9800AFD42D /* Dangerfile */,
+			);
+			name = "Project Configuration Files";
+			sourceTree = "<group>";
+		};
 		6A2ED86D2388F85C0011E4B2 = {
 			isa = PBXGroup;
 			children = (
+				6A0E9F3523981DBB00AFD42D /* Project Configuration Files */,
 				6A2ED8782388F85C0011E4B2 /* TestApp */,
 				6A2ED8912388F85E0011E4B2 /* TestAppTests */,
 				6A2ED89C2388F85E0011E4B2 /* TestAppUITests */,
