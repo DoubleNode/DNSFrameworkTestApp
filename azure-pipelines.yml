@@ -31,7 +31,7 @@ steps:
     packageApp: false
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
-    destinationSimulators: 'Generic iOS Simulator Device'
+    destinationSimulators: 'iPhone'
     destinationTypeOption: 'simulators'
     destinationPlatformOption: 'iOS'
     signingOption: "auto"
