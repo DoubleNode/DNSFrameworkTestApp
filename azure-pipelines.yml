@@ -33,8 +33,8 @@ steps:
     destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
     destinationPlatform: 'iOS' # Optional
     destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
-    destinationSimulators: 'iPhone 11' # Optional
-    destinationDevices: 'iPhone 11' # Optional
+    destinationSimulators: 'iPhone XS' # Optional
+    destinationDevices: 'iPhone XS' # Optional
     useXcpretty: true
 
     
