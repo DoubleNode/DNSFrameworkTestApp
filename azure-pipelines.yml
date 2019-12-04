@@ -24,10 +24,10 @@ steps:
   
 - task: Xcode@5
   inputs:
-    actions: 'build'
+    actions: 'test'
     scheme: 'TestApp'
     sdk: 'iphoneos'
-    configuration: 'Release'
+    configuration: 'Debug'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
     useXcpretty: true
