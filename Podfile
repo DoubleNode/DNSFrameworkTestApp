@@ -6,7 +6,7 @@ target 'TestApp' do
   use_frameworks!
 
   # Pods for TestApp
-  pod 'Beaconstac', '~> 3.2'
+  #pod 'Beaconstac', '~> 3.2'
 
   target 'TestAppTests' do
     inherit! :search_paths
