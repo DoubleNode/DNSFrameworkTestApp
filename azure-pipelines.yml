@@ -29,7 +29,7 @@ steps:
     sdk: 'iphoneos'
     configuration: 'Debug'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: '11.2.1' # Options: 8, 9, 10, default, specifyPath
+    xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
     destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
     destinationPlatform: 'iOS' # Optional
     destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
