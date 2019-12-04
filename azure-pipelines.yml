@@ -29,12 +29,12 @@ steps:
     sdk: 'iphoneos'
     configuration: 'Debug'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
-    useXcpretty: true
-    #destinationPlatformOption: 'default' # Optional. Options: default, iOS, tvOS, macOS, custom
-    #destinationPlatform: # Optional
+    xcodeVersion: '11.2.1' # Options: 8, 9, 10, default, specifyPath
+    destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
+    destinationPlatform: 'iOS' # Optional
     destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
     destinationSimulators: 'iPhone 11' # Optional
-    #destinationDevices: # Optional
+    destinationDevices: 'iPhone 11' # Optional
+    useXcpretty: true
 
     
