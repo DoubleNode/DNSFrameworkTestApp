@@ -33,9 +33,6 @@
 		6A2ED8DB2388F9060011E4B2 /* TESTFirstModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2ED8C42388F9060011E4B2 /* TESTFirstModels.swift */; };
 		6A2ED8DC2388F9060011E4B2 /* TESTFirstConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2ED8C52388F9060011E4B2 /* TESTFirstConfigurator.swift */; };
 		6A2ED8DD2388F9060011E4B2 /* TESTFirstCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2ED8C62388F9060011E4B2 /* TESTFirstCommon.swift */; };
-		6A2ED8E02388F9D60011E4B2 /* DNSProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = 6A2ED8DF2388F9D60011E4B2 /* DNSProtocols */; };
-		6A2ED8E32388FA100011E4B2 /* DNSCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A2ED8E22388FA100011E4B2 /* DNSCore */; };
-		6A2ED8E62388FA4E0011E4B2 /* DNSBlankWorkers in Frameworks */ = {isa = PBXBuildFile; productRef = 6A2ED8E52388FA4E0011E4B2 /* DNSBlankWorkers */; };
 		6A2ED8EF2389EE730011E4B2 /* DNSBaseStage in Frameworks */ = {isa = PBXBuildFile; productRef = 6A2ED8EE2389EE730011E4B2 /* DNSBaseStage */; };
 		6AEE90562395C75B007C5320 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEE90552395C75B007C5320 /* SystemConfiguration.framework */; };
 		6AEE90582395C763007C5320 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEE90572395C763007C5320 /* CoreBluetooth.framework */; };
@@ -123,10 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A2ED8EF2389EE730011E4B2 /* DNSBaseStage in Frameworks */,
-				6A2ED8E02388F9D60011E4B2 /* DNSProtocols in Frameworks */,
-				6A2ED8E62388FA4E0011E4B2 /* DNSBlankWorkers in Frameworks */,
 				6AEE90642395CFE1007C5320 /* PassKit.framework in Frameworks */,
-				6A2ED8E32388FA100011E4B2 /* DNSCore in Frameworks */,
 				6AEE905A2395C76A007C5320 /* CoreLocation.framework in Frameworks */,
 				6AEE90582395C763007C5320 /* CoreBluetooth.framework in Frameworks */,
 				6AEE90562395C75B007C5320 /* SystemConfiguration.framework in Frameworks */,
@@ -299,9 +293,6 @@
 			);
 			name = TestApp;
 			packageProductDependencies = (
-				6A2ED8DF2388F9D60011E4B2 /* DNSProtocols */,
-				6A2ED8E22388FA100011E4B2 /* DNSCore */,
-				6A2ED8E52388FA4E0011E4B2 /* DNSBlankWorkers */,
 				6A2ED8EE2389EE730011E4B2 /* DNSBaseStage */,
 			);
 			productName = TestApp;
@@ -381,9 +372,6 @@
 			);
 			mainGroup = 6A2ED86D2388F85C0011E4B2;
 			packageReferences = (
-				6A2ED8DE2388F9D60011E4B2 /* XCRemoteSwiftPackageReference "DNSProtocols" */,
-				6A2ED8E12388FA100011E4B2 /* XCRemoteSwiftPackageReference "DNSCore" */,
-				6A2ED8E42388FA4E0011E4B2 /* XCRemoteSwiftPackageReference "DNSBlankWorkers" */,
 				6A2ED8ED2389EE730011E4B2 /* XCRemoteSwiftPackageReference "DNSBaseStage" */,
 			);
 			productRefGroup = 6A2ED8772388F85C0011E4B2 /* Products */;
@@ -881,30 +869,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6A2ED8DE2388F9D60011E4B2 /* XCRemoteSwiftPackageReference "DNSProtocols" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DoubleNode/DNSProtocols.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
-			};
-		};
-		6A2ED8E12388FA100011E4B2 /* XCRemoteSwiftPackageReference "DNSCore" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DoubleNode/DNSCore.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.3;
-			};
-		};
-		6A2ED8E42388FA4E0011E4B2 /* XCRemoteSwiftPackageReference "DNSBlankWorkers" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DoubleNode/DNSBlankWorkers.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.4;
-			};
-		};
 		6A2ED8ED2389EE730011E4B2 /* XCRemoteSwiftPackageReference "DNSBaseStage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/DoubleNode/DNSBaseStage.git";
@@ -916,21 +880,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6A2ED8DF2388F9D60011E4B2 /* DNSProtocols */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6A2ED8DE2388F9D60011E4B2 /* XCRemoteSwiftPackageReference "DNSProtocols" */;
-			productName = DNSProtocols;
-		};
-		6A2ED8E22388FA100011E4B2 /* DNSCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6A2ED8E12388FA100011E4B2 /* XCRemoteSwiftPackageReference "DNSCore" */;
-			productName = DNSCore;
-		};
-		6A2ED8E52388FA4E0011E4B2 /* DNSBlankWorkers */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6A2ED8E42388FA4E0011E4B2 /* XCRemoteSwiftPackageReference "DNSBlankWorkers" */;
-			productName = DNSBlankWorkers;
-		};
 		6A2ED8EE2389EE730011E4B2 /* DNSBaseStage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6A2ED8ED2389EE730011E4B2 /* XCRemoteSwiftPackageReference "DNSBaseStage" */;
