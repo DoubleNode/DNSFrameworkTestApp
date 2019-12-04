@@ -26,15 +26,16 @@ steps:
   inputs:
     actions: 'test'
     scheme: 'TestApp'
-    sdk: 'iphoneos'
+    sdk: 'iphonesimulator' # 'iphoneos'
     configuration: 'Debug'
+    packageApp: false
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
-    destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
-    destinationPlatform: 'iOS' # Optional
-    destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
-    destinationSimulators: 'iPhone XS' # Optional
-    destinationDevices: 'iPhone XS' # Optional
+    destinationSimulators: 'iPhone X'
+    destinationTypeOption: 'simulators'
+    destinationPlatformOption: 'iOS'
+    signingOption: "auto"
     useXcpretty: true
+    publishJUnitResults: 'build/reports/junit.xml'
 
     
