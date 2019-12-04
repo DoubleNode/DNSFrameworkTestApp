@@ -31,4 +31,10 @@ steps:
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
     useXcpretty: true
+    #destinationPlatformOption: 'default' # Optional. Options: default, iOS, tvOS, macOS, custom
+    #destinationPlatform: # Optional
+    destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
+    destinationSimulators: 'iPhone 11' # Optional
+    #destinationDevices: # Optional
+
     
